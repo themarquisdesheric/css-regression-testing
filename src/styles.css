@@ -1,0 +1,18 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  font-family: 'Bangers', sans-serif;
+  padding: 1rem;
+}
+
+h1 {
+  font-size: 4rem;
+  color: rebeccapurple;
+}
+
+p {
+  font-size: 2rem;
+}
