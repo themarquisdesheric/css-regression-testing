@@ -4,7 +4,7 @@ const getComputedPropertiesToString = (node) => {
   let computedProperties = '';
 
   for (let i = 0; i < styleDeclaration.length; i++) { 
-    const cssProperty = styleDeclaration.item(i);
+    const cssProperty = styleDeclaration[i];
     
     computedProperties += cssProperty + ': ' + styleDeclaration.getPropertyValue(cssProperty) + ';\n';
   };
@@ -22,7 +22,7 @@ const getComputedProperties = (node) => {
   let computedProperties = {};
 
   for (let i = 0; i < styleDeclaration.length; i++) { 
-    const cssProperty = styleDeclaration.item(i);
+    const cssProperty = styleDeclaration[i];
     const cssPropertyValue = styleDeclaration.getPropertyValue(cssProperty);
     
     computedProperties[cssProperty] = cssPropertyValue;
