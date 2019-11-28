@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`utilities getComputedProperties should return a string of the computed properties 1`] = `
+Object {
+  "background-position": "0% 0%",
+  "background-repeat": "repeat",
+  "background-size": "auto",
+}
+`;
+
+exports[`utilities getComputedPropertiesToString should return a string of the computed properties 1`] = `
+"background-position: 0% 0%;
+background-repeat: repeat;
+background-size: auto;
+"
+`;

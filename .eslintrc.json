@@ -17,6 +17,10 @@
   },
   "rules": {
     "semi": ["error", "always"],
+    "comma-dangle": ["error", "never"],
+    "ignoreComments": true,
+    "ignoreStrings": true,
+    "ignoreTemplateLiterals": true,
     "no-console": "warn",
     "indent": [
       "error",
@@ -26,6 +30,7 @@
     "linebreak-style": [
       "error",
       "unix"
-    ]
+    ],
+    "object-curly-spacing": ["error", "always"]
   }
 }
